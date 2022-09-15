@@ -142,7 +142,9 @@ button {
 }
 
 #histories {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
   flex-wrap: wrap;
   justify-content: space-around;
 }
